@@ -1,12 +1,19 @@
 # Link Tree
 
-This project renders a link tree page, that show links to my social medias. It was created using NuxtJS and TailwindCSS.
+This project renders a link tree page, that show links to my social medias. It was created using NuxtJS and TailwindCSS. It builds using [SSG strategy](https://en.wikipedia.org/wiki/Static_site_generator), because it's a static page (setted in nuxt.config.js).
 
 ## Netlify deployed page
 
 https://moonlit-fairy-f1c698.netlify.app/
 
 ## Setup
+
+Install the correct NodeJS version (v22.14.0), the project has a nvmrc file, so you can use nvm or fnm to manage your NodeJS installation.
+
+```bash
+nvm use
+corepack enable
+```
 
 Make sure to install dependencies:
 
@@ -77,6 +84,8 @@ yarn generate
 # bun
 bun run generate
 ```
+
+## Preview
 
 Locally preview production build:
 
