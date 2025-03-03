@@ -1,6 +1,10 @@
-# Nuxt Minimal Starter
+# Link Tree
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+This project renders a link tree page, that show links to my social medias. It was created using NuxtJS and TailwindCSS.
+
+## Netlify deployed page
+
+https://moonlit-fairy-f1c698.netlify.app/
 
 ## Setup
 
@@ -40,7 +44,7 @@ bun run dev
 
 ## Production
 
-Build the application for production:
+Build the application for production (use dist page to get deploy files):
 
 ```bash
 # npm
@@ -54,6 +58,24 @@ yarn build
 
 # bun
 bun run build
+```
+
+## Generate Static
+
+Pre-renders every route of the application and stores the result in plain HTML files:
+
+```bash
+# npm
+npm run generate
+
+# pnpm
+pnpm generate
+
+# yarn
+yarn generate
+
+# bun
+bun run generate
 ```
 
 Locally preview production build:
@@ -71,5 +93,3 @@ yarn preview
 # bun
 bun run preview
 ```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
